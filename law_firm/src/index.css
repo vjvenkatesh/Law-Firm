@@ -34,7 +34,7 @@ html,body{
 }
 
 body{
-  background-color: var(--color-black);
+  background-color: rgb(0, 0, 0);
   font-family: "poppins",sans-serif;
   color: var(--color-white);
   overflow-x: hidden;

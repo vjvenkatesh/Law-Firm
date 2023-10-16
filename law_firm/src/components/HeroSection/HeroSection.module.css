@@ -1,0 +1,106 @@
+.herosection {
+  width: 1135px;
+  /* height: 636px; */
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aqua; */
+}
+.heroContent {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 30px;
+}
+.contentText {
+  font-family: Inter;
+  font-size: 66px;
+  font-weight: 500;
+  line-height: 97px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 571px;
+  height: 194px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contentText2 {
+  width: 560px;
+  height: 99px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  opacity: 30%;
+  font-family: Inter;
+}
+
+.searchWrapper {
+  width: 438px;
+  height: 74px;
+  border-radius: 43px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.searchleft {
+  width: 224px;
+  height: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.searchText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchMessage {
+  opacity: 30%;
+  margin-right: 10px;
+}
+.searchInput {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  width: 75%;
+  height: 50px;
+  color: rgba(255, 255, 255, 0.7);
+  outline: none;
+}
+
+.searchBtn {
+  width: 180px;
+  height: 62px;
+  border-radius: 43px;
+  background-color: rgba(227, 183, 72, 1);
+  color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.heroImage {
+  width: 467.71px;
+  height: 544.71px;
+}
