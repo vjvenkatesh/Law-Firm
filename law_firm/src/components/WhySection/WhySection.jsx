@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./WhySection.module.css";
 
-import { ReactComponent as MessageIcon } from "../../assets/message.svg";
+import { ReactComponent as GiftIcon } from "../../assets/giftBox.svg";
 
 const WhySection = () => {
   return (
@@ -12,7 +12,7 @@ const WhySection = () => {
         <div className={styles.whyContents}>
         <div className={styles.whyContent}>
             <div className={styles.messageWrapper}>
-              <MessageIcon />
+              <GiftIcon />
             </div>
             <h4 className={styles.whyRate}>98% Success Rate</h4>
             <p className={styles.whySentence}>
@@ -26,7 +26,7 @@ const WhySection = () => {
         <div className={styles.whyContentsCenter}>
           <div className={styles.whyContent}>
             <div className={styles.messageWrapper}>
-              <MessageIcon />
+              <GiftIcon />
             </div>
             <h4 className={styles.whyRate}>100% Success Rate</h4>
             <p className={styles.whySentence}>
@@ -41,7 +41,7 @@ const WhySection = () => {
         <div className={styles.whyContents}>
           <div className={styles.whyContent}>
             <div className={styles.messageWrapper}>
-              <MessageIcon />
+              <GiftIcon />
             </div>
             <h4 className={styles.whyRate}>100% Success Rate</h4>
             <p className={styles.whySentence}>
