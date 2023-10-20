@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./HeroSection.module.css";
 import { ReactComponent as MessageIcon } from "../../assets/message.svg";
 import { ReactComponent as HeroImage } from "../../assets/heroImage.svg";
+import heroImage from "../../assets/heroImage.png";
 const HeroSection = () => {
   return (
     <div className={styles.herosection}>
@@ -25,7 +26,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className={styles.heroImage}>
-        <HeroImage />
+        <img src={heroImage} alt="heroimage" />
       </div>
     </div>
   );
