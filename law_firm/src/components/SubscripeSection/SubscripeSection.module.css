@@ -1,0 +1,87 @@
+.wrapper {
+  width: 1245px;
+  height: 356px;
+  background-color: rgba(71, 71, 71, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerWrapper {
+  width: 686px;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.title {
+  font-family: Helvetica Now Display;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.textSection {
+  width: 686px;
+  height: 53px;
+  display: flex;
+  gap: 10px;
+}
+
+.firstInput {
+  width: 276px;
+  height: 53px;
+  border-radius: 8px 0px 0px 8px;
+  background-color: rgba(228, 228, 228, 1);
+  border: none;
+
+  padding: 20px;
+
+  font-family: Helvetica Now Display;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.secondInput {
+  width: 276px;
+  height: 53px;
+
+  background-color: rgba(228, 228, 228, 1);
+  border: none;
+
+  padding: 20px;
+  font-family: Helvetica Now Display;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.button {
+  width: 116px;
+  height: 53px;
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+
+  background-color: rgba(227, 183, 72, 1);
+
+  font-family: Helvetica Now Display;
+  font-size: 19px;
+  font-weight: 900;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.button:hover {
+  cursor: pointer;
+}

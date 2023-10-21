@@ -1,0 +1,98 @@
+.wrapper {
+  width: 1140px;
+  height: 690px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftTitle {
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.leftPara {
+  width: 377px;
+  height: 58px;
+
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.rightContainer {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.rightTitle {
+  width: 399px;
+  height: 24px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.rightPara {
+  width: 557px;
+  height: fit-content;
+
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.accordionIcon {
+  width: 28px;
+  height: 28px;
+  border-radius: 40px;
+  background-color: rgba(227, 183, 72, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider {
+  width: 539px;
+  opacity: 0.05px;
+  transform: rotate(-0deg);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.question {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: rgba(255, 255, 255, 1);
+}
+.answer {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.6);
+}

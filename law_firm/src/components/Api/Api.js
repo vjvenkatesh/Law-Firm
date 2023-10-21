@@ -177,3 +177,21 @@ export const fetchTeamData = [
     image: "https://drive.google.com/uc?export=view&id=1CCiR0OjTgpmZvnRsS-JhA8AiIlcLt1Wx",
   },
 ];
+
+
+
+export const fetchFaqData=[
+  {
+    "question":"Do I need a personal injury report?",
+    "answer":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptatibus ullam rem nesciunt optio."
+
+  },
+  {
+    "question":"How much is my case worth?",
+    "answer":"Magnam fuga optio rerum quasi aliquam dolorum praesentium sed modi ."
+  },
+  {
+    "question":"What should I do right after car accidect?",
+    "answer":"Iste sed minus ipsam fugiat reprehenderit! Culpa cum impedit tempore .",
+  },
+];
