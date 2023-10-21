@@ -1,8 +1,7 @@
-import React from "react";
 import styles from "./HeroSection.module.css";
 import { ReactComponent as MessageIcon } from "../../assets/message.svg";
-import { ReactComponent as HeroImage } from "../../assets/heroImage.svg";
 import heroImage from "../../assets/heroImage.png";
+
 const HeroSection = () => {
   return (
     <div className={styles.herosection}>
@@ -15,14 +14,17 @@ const HeroSection = () => {
           curabitur sodales conubia ut inceptos faucibus himenaeos tortor eget,
           hac massa gravida arcu interdum proin curae.
         </div>
-        <div >
-        <div className={styles.searchWrapper}>
-          <div className={styles.searchText}>
-            <MessageIcon className={styles.searchMessage}/>
-            <input className={styles.searchInput} placeholder="Enter your eamil address"></input>
+        <div>
+          <div className={styles.searchWrapper}>
+            <div className={styles.searchText}>
+              <MessageIcon className={styles.searchMessage} />
+              <input
+                className={styles.searchInput}
+                placeholder="Enter your eamil address"
+              ></input>
+            </div>
+            <div className={styles.searchBtn}>Let's Talk</div>
           </div>
-            <div className={styles.searchBtn}>Let's Talk</div>     
-        </div>
         </div>
       </div>
       <div className={styles.heroImage}>

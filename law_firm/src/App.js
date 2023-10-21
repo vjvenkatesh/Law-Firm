@@ -1,7 +1,9 @@
 import "./App.css";
 import AreaSection from "./components/AreaSection/AreaSection";
+import ClientFeedback from "./components/ClientFeedback/ClientFeedback";
 import IntroSection from "./components/IntroSection/IntroSection";
 import Navbar from "./components/Navbar/Navbar";
+import Team from "./components/Team/Team";
 import WhySection from "./components/WhySection/WhySection";
 
 function App() {
@@ -22,6 +24,14 @@ function App() {
         <AreaSection/>
       </div>
 
+      <div className="client-review-container">
+        <ClientFeedback/>
+      </div>
+
+
+      <div className="team-container">
+        <Team/>
+      </div>
     </div>
   );
 }

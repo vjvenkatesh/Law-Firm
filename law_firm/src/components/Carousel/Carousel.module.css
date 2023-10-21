@@ -1,0 +1,86 @@
+.wrapper {
+  width: 1137px;
+  height: 626px;
+
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: stretch;
+  margin: 50px;
+}
+
+.innerWrapper {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.topDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carouselArrows {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.leftNavigation {
+  width: 90.61px;
+  height: 90.61px;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightNavigation {
+  width: 90.61px;
+  height: 90.61px;
+
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yellowArrow {
+  background: rgba(227, 183, 72, 1);
+}
+.whiteArrow {
+  background: rgba(230, 230, 230, 1);
+}
+
+.normalSlide {
+  width: 359px;
+  height: 368px;
+  border-radius: 14px;
+
+  border: 1.4px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(0deg, #2e2e2e, #2e2e2e),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1));
+  padding: 20px;
+}
+.evenSlide {
+  width: 359px;
+  height: 368px;
+  border-radius: 14px;
+  background: linear-gradient(0deg, #1d1d1d, #1d1d1d),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+
+  border: 1.4px solid rgba(255, 255, 255, 0.1);
+  padding: 20px;
+}
+
+.title {
+  width: 374px;
+  height: 154px;
+
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
