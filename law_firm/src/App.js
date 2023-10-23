@@ -17,39 +17,67 @@ function App() {
       </div>
       <div className="intro-container">
         <IntroSection />
-      
-      </div>
-      <div className="why-container">
-      <WhySection />
-      </div>
-
-      <div className="area-container">
-        <AreaSection/>
-      </div>
-
-      <div className="client-review-container">
-        <ClientFeedback/>
-      </div>
-
-
-      <div className="team-container">
-        <Team/>
-      </div>
-
-      <div className="faq-container">
-        <FaqSection/>
-      </div>
-
-      <div className="subscribe-container">
-        <SubscripeSection/>
-      </div>
-
-      <div className="footer-container">
-        <Footer/>
+        <WhySection />
+        <AreaSection />
+        <ClientFeedback />
+        <Team />
+        <FaqSection />
+        <SubscripeSection />
+        <Footer />
       </div>
     </div>
-
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <div className="why-container">
+      
+      </div>
+
+      <div className="area-container">
+        
+      </div>
+
+      <div className="client-review-container">
+        
+      </div>
+
+
+      <div className="team-container">
+       
+      </div>
+
+      <div className="faq-container">
+        
+      </div>
+
+      <div className="subscribe-container">
+        
+      </div>
+
+      <div className="footer-container">
+        
+      </div> */}
